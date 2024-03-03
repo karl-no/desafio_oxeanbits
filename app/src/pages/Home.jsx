@@ -14,8 +14,8 @@ const Home = () => {
     const data = await res.json()
     setTopMovies(data.results)
   }
-  useEffect(() => {
 
+  useEffect(() => {
     const topRatedUrl = `${moviesURL}top_rated?${apiKey}`
     getTopRatedMovies(topRatedUrl)
   }, [])

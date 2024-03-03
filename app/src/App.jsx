@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom';
 // import { Grid, GridColumn as Column } from "@progress/kendo-react-grid";
 import './App.css';
 import Navbar from './components/Navbar';
-import GridMovies from './components/GridMovies';
+// import GridMovies from './components/GridMovies';
 
 function App() {
   
@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="App">
         <Navbar />
-        <GridMovies />
+        {/* <GridMovies /> */}
         {/* <Grid
           style={{
               height: "400px",
