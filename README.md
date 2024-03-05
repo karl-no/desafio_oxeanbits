@@ -9,6 +9,8 @@
   npm run dev
 ``` -->
 
+É preciso ter o npm
+
 <details>
   <summary><strong>⌨️ Primeiros passos</strong></summary><br />
 
@@ -23,6 +25,19 @@
   2. Instale as dependências
 
   - `npm install`.
+  
+</details>
+
+<details>
+  <summary><strong>💻 Licenças das APIs e variáveis de ambiente</strong></summary><br />
+
+  - O repositório contém um arquivo chamado `.env.example` com exemplo de como devem ser as variáveis de ambiente para rodar o projeto.
+  A seguinte variável de ambiente deve ser alterada de acordo com a chave de API da conta do usuário na plataforma TMDB:
+    - VITE_API_KEY adquirida através da API da [TMDB](https://developer.themoviedb.org/docs/getting-started);
+  
+  - A chave da API [Kendo UI](https://www.telerik.com/kendo-react-ui/components/my-license/), deve ser obtida no site da empresa e, após configurada uma conta de usuário:
+    - baixe o arquivo `kendo-ui-license.txt` e o coloque dentro da pasta app (a mesma que contém o arquivo 'package.json');
+    - dentro da pasta app, rode o comando `npx kendo-ui-license activate`.
   
 </details>
 
