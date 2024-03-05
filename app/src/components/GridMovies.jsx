@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Link } from "react-router-dom";
 import { Grid, GridColumn as Column } from '@progress/kendo-react-grid';
 import { filterBy } from '@progress/kendo-data-query';
 import '@progress/kendo-theme-default/dist/all.css';
@@ -27,8 +28,6 @@ class GridMovies extends Component {
   }
 
   componentDidMount() {
-    // Você pode chamar a função de busca da API aqui
-    // Certifique-se de atualizar o estado 'data' com os dados da API
     this.getTopRatedMovies();
   }
 
@@ -56,7 +55,7 @@ class GridMovies extends Component {
   render() {
     return (
       <div className="GridMovies">
-        <div className='nutrition-grid'>
+        <div className='movies-grid'>
           <h2>Top filmes pelo TMDB</h2>
           <Grid
             data={this.state.data}
@@ -69,19 +68,17 @@ class GridMovies extends Component {
               title='Filme'
               cell={(props) => (
                 <td>
-                  <img
-                    // src={`https://image.tmdb.org/t/p/w500/${props.dataItem.poster_path}`}
-                    src={imagesURL + props.dataItem.poster_path}
-                    alt={props.dataItem.original_title}
-                    style={{ maxWidth: '100px', maxHeight: '150px' }}  // ajuste o tamanho conforme necessário
-                  />
+                  <Link to={`/movie/${props.dataItem.id}`}>
+                    <img
+                      
+                      src={imagesURL + props.dataItem.poster_path}
+                      alt={props.dataItem.original_title}
+                      style={{ maxWidth: '100px', maxHeight: '150px' }}
+                    />
+                  </Link>
                 </td>
               )}
             />
-            {/* <Column field='poster_path' title='Filme' /> */}
-            {/* <Column field='poster_path' title='Filme'>
-              <img src={imagesURL + movie.poster_path} alt={movie.title} />
-            </Column> */}
             <Column field='original_title' title='Nome original' />
             <Column field='vote_average' title='Nota' filter="numeric"/>
             <Column field='release_date' title='Lançamento' filter="numeric"/>
