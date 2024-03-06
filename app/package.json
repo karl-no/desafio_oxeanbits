@@ -27,6 +27,7 @@
     "@progress/kendo-react-progressbars": "^7.2.3",
     "@progress/kendo-react-treeview": "^7.2.3",
     "@progress/kendo-svg-icons": "^2.1.0",
+    "@progress/kendo-font-icons": "2.1.0",
     "@progress/kendo-theme-default": "^7.2.1",
     "@progress/kendo-ui": "^2024.1.130",
     "hammerjs": "^2.0.8",

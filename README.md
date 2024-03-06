@@ -1,15 +1,11 @@
 # Desafio Oxeanbits
 **Desafio para vaga de FrontEnd - Foco em React:**
 
-<!-- ```bash
-  npm install
-``` -->
+É preciso ter o [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-<!-- ```bash
-  npm run dev
-``` -->
+<!-- ## Screenshots
 
-É preciso ter o npm
+<img src="" width="288"/> -->
 
 <details>
   <summary><strong>⌨️ Primeiros passos</strong></summary><br />
@@ -48,27 +44,8 @@
   
 </details>
 
-<!-- <details>
+<details>
   <summary><strong>🛠 Testes</strong></summary><br />
-
- A [React Testing Library (RTL)](https://testing-library.com/docs/react-testing-library/intro) será utilizada para execução dos testes.
-
- Na descrição dos requisitos será pedido a adição de atributos `data-testid` nos elementos _HTML_. 
-  
- Para deixar evidente esta configuração veja o exemplo: 
-  - se o requisito pedido for _"crie um botão e adicione o id de teste (ou `data-testid`) com o valor `my-action`"_, você pode escrever:
-
-  ```html
-  <button data-testid="my-action" ></button>
-  ```
-
-  ou
-
-  ```html
-  <a data-testid="my-action"><a/>
-  ```
-
-O atributo `data-testid="my-action"` servirá para que a React Testing Library (RTL) identifique o elemento. Desta forma será possível realizar testes unitários focados no comportamento da aplicação. 
     
   Você pode executar todos os testes unitários localmente para verificar a solução proposta com o comando abaixo:
 
@@ -76,18 +53,9 @@ O atributo `data-testid="my-action"` servirá para que a React Testing Library (
   npm test
   ```
 
-  Você pode executar os testes para um único requisito passando, como parâmetro para o comando, o nome do arquivo de teste alvo:
+  <!-- Você pode executar os testes para um único requisito passando, como parâmetro para o comando, o nome do arquivo de teste alvo: -->
 
-  ```bash
+  <!-- ```bash
   npm test src/__tests__/requirement1.test.js
-  ```
-
-  ** :eyes: De olho na dica:** Desativando testes
-
-  Caso queira avaliar apenas um tópico do requisito, você pode usar o `.only` após o `it`. Com isso, será possível que apenas esse tópico rode localmente e seja avaliado.
-
-  ![image](it-only.png)
-  ![image](only-one-green.png)
-
-  :warning: **ATENÇÃO!** :warning: O avaliador automático não avalia, necessariamente, seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então não se assuste se isso acontecer, ok?
-</details> -->
+  ``` -->
+</details>

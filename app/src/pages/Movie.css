@@ -8,7 +8,7 @@
 
 .movie-page svg {
   font-size: 1.5rem;
-  color: #f7d354;
+  color: #54c1f7;
 }
 
 .movie-page .movie-card {
@@ -51,4 +51,18 @@
 
 .description p {
   line-height: 1.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    width: 80%;
+  }
+
+  .info {
+    margin: 0 20px 0;
+  }
+
+  .movie-name {
+    font-size: 0.8rem;
+  }
 }
