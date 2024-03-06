@@ -54,6 +54,7 @@ class GridMovies extends Component {
   render() {
     return (
       <div className="GridMovies">
+        <h2 className="title">Melhores filmes</h2>
         <div className='movies-grid'>
           <Grid
             data={this.state.data}
