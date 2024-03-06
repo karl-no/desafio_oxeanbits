@@ -42,11 +42,8 @@
 
 <details>
   <summary><strong>💻 Rodando o projeto</strong></summary><br />
-
-  - Entre na pasta raiz do projeto, chamada "app":
-    - `cd app`
-  - Instale as dependências com o comando npm:    
-    - `npm install`.
+    
+    - `npm run dev`
   
 </details>
 
