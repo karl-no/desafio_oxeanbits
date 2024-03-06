@@ -1,8 +1,15 @@
-/* .GridMovies {
+.GridMovies {
   text-align: center;
+  padding: 0 5vw 0 5vw;
 }
 
-.GridMovies-logo {
+@media only screen and (max-width: 768px) {
+  .movie-poster {
+    width: 15vw;
+  }
+}
+
+/* .GridMovies-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }

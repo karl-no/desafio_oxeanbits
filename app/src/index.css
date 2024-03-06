@@ -16,18 +16,12 @@
   box-sizing: border-box;
 }
 
-/* body {
-  background-color: #000;
-} */
-
 a {
   text-decoration: none;
-  /* color: #f7d354; */
-  color: #f7d354;
+  color: #54c1f7;
   transition: 0.5s;
 }
 
 a:hover {
-  /* color: #b8930c; */
-  color: #b8930c;
+  color: #0c70b8;
 }

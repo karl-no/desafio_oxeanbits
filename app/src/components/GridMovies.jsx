@@ -4,8 +4,7 @@ import { Grid, GridColumn as Column } from '@progress/kendo-react-grid';
 import { filterBy } from '@progress/kendo-data-query';
 import '@progress/kendo-theme-default/dist/all.css';
 import '@progress/kendo-ui';
-// import nutrition from './nutrition.json';
-// import './GridMovies.css';
+import './GridMovies.css';
 
 const moviesURL = import.meta.env.VITE_API
 const apiKey = import.meta.env.VITE_API_KEY
@@ -56,7 +55,6 @@ class GridMovies extends Component {
     return (
       <div className="GridMovies">
         <div className='movies-grid'>
-          <h2>Top filmes pelo TMDB</h2>
           <Grid
             data={this.state.data}
             style={{maxHeight: '500px'}}
@@ -70,18 +68,19 @@ class GridMovies extends Component {
                 <td>
                   <Link to={`/movie/${props.dataItem.id}`}>
                     <img
-                      
                       src={imagesURL + props.dataItem.poster_path}
                       alt={props.dataItem.original_title}
                       style={{ maxWidth: '100px', maxHeight: '150px' }}
+                      className='movie-poster'
                     />
                   </Link>
                 </td>
               )}
             />
-            <Column field='original_title' title='Nome original' />
-            <Column field='vote_average' title='Nota' filter="numeric"/>
-            <Column field='release_date' title='Lançamento' filter="numeric"/>
+            <Column field='title' title='Nome'/>
+            <Column field='original_title' title='Nome original'/>
+            <Column field='vote_average' title='Nota' filter='numeric'/>
+            <Column field='release_date' title='Lançamento' filter='numeric'/>
           </Grid>
         </div>
       </div>
