@@ -62,3 +62,16 @@
   npm test src/__tests__/requirement1.test.js
   ``` -->
 </details>
+
+<details>
+  <summary><strong>Melhorias futuras</strong></summary><br />
+  Como este projeto se tratou de um desafio rápido, restam no projeto alguns pontos de melhoria que pretendo realizar no futuro:
+  - consertar os filtros no grid do Kendo UI;
+  - arredondar os valores das notas dos filmes para apenas uma casa decimal;
+  - usar a paginação da resposta da API do TMDB para popular mais o grid da Home;
+  - realizar melhorias na estilização das páginas e componentes;
+  - terminar os testes unitários
+
+  Tem mais alguma sugestão? Vamos interagir por aqui ou no [meu GitHub](https://www.linkedin.com/in/karl-web/)!!!
+</details>
+<br>
