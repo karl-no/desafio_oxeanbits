@@ -5,6 +5,8 @@ import MovieCard from "../components/MovieCard";
 const searchURL = import.meta.env.VITE_SEARCH;
 const apiKey = import.meta.env.VITE_API_KEY;
 
+import "./Search.css"
+
 const Search = () => {
   const [searchParams] = useSearchParams();
 
