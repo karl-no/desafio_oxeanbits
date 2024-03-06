@@ -20,6 +20,9 @@
 
   2. Instale as dependências
 
+  - Entre na pasta raiz do projeto, chamada "app":
+    - `cd app`
+  - Instale as dependências com o comando npm:    
   - `npm install`.
   
 </details>
