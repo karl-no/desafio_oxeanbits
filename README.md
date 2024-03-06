@@ -12,18 +12,19 @@
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:karl-no/desafio_oxeanbits.git`.
+  - Use o comando:
+    - `git clone git@github.com:karl-no/desafio_oxeanbits.git`
   - Entre na pasta do repositório que você acabou de clonar:
     - `cd desafio_oxeanbits`
   - Certifique-se que está na branch principal:
-    - `git checkout main && git pull`.
+    - `git checkout main && git pull`
 
   2. Instale as dependências
 
   - Entre na pasta raiz do projeto, chamada "app":
     - `cd app`
   - Instale as dependências com o comando npm:    
-  - `npm install`.
+    - `npm install`
   
 </details>
 
@@ -47,7 +48,7 @@
   
 </details>
 
-<details>
+ <!--<details>
   <summary><strong>🛠 Testes</strong></summary><br />
     
   Você pode executar todos os testes unitários localmente para verificar a solução proposta com o comando abaixo:
@@ -56,21 +57,21 @@
   npm test
   ```
 
-  <!-- Você pode executar os testes para um único requisito passando, como parâmetro para o comando, o nome do arquivo de teste alvo: -->
+  Você pode executar os testes para um único requisito passando, como parâmetro para o comando, o nome do arquivo de teste alvo: -->
 
   <!-- ```bash
   npm test src/__tests__/requirement1.test.js
-  ``` -->
-</details>
+  ``` 
+</details>-->
 
 <details>
   <summary><strong>Melhorias futuras</strong></summary><br />
   Como este projeto se tratou de um desafio rápido, restam no projeto alguns pontos de melhoria que pretendo realizar no futuro:
-  - consertar os filtros no grid do Kendo UI;
-  - arredondar os valores das notas dos filmes para apenas uma casa decimal;
-  - usar a paginação da resposta da API do TMDB para popular mais o grid da Home;
-  - realizar melhorias na estilização das páginas e componentes;
-  - terminar os testes unitários
+    - consertar os filtros no grid do Kendo UI;
+    - arredondar os valores das notas dos filmes para apenas uma casa decimal;
+    - usar a paginação da resposta da API do TMDB para popular mais o grid da Home;
+    - realizar melhorias na estilização das páginas e componentes;
+    - terminar os testes unitários
 
   Tem mais alguma sugestão? Vamos interagir por aqui ou no [meu GitHub](https://www.linkedin.com/in/karl-web/)!!!
 </details>
