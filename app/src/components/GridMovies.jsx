@@ -18,7 +18,7 @@ class GridMovies extends Component {
       filter: {
         logic: 'and',
         filters: [{
-          field: 'original_title',
+          field: 'title',
           operator: 'contains',
           value: ''
         }]
