@@ -25,7 +25,7 @@
 </details>
 
 <details>
-  <summary><strong>💻 Licenças das APIs e variáveis de ambiente</strong></summary><br />
+  <summary><strong>⚠️ Licenças das APIs e variáveis de ambiente</strong></summary><br />
 
   - O repositório contém um arquivo chamado `.env.example` com exemplo de como devem ser as variáveis de ambiente para rodar o projeto.
   A seguinte variável de ambiente deve ser alterada de acordo com a chave de API da conta do usuário na plataforma TMDB:
